@@ -1,19 +1,45 @@
-<head>
-    <link rel="stylesheet" href="assets/index.css">
-    <link rel="icon" type="image/x-icon"
-        href="https://play-lh.googleusercontent.com/_TNbiYKasPy_isTSEg2_UEzVaev4F8fO2lLunsHJ8_Ux2g3OzkSZyzpqvJG1woSj-WD4=w240-h480-rw">
-    <title>mObywatel</title>
+<html><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/dashboard.css?v=1.1">
+    <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/_TNbiYKasPy_isTSEg2_UEzVaev4F8fO2lLunsHJ8_Ux2g3OzkSZyzpqvJG1woSj-WD4=w240-h480-rw">
+    <title>fObywatel 2.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
-</head>
+    <link rel="stylesheet" href="assets/common.css?v=1.9">
+<style type="text/css" id="operaUserStyle">
+  video {
+    filter: -opera-shader(url(data:text/plain;base64,Ly8gaHR0cHM6Ly9naXRodWIuY29tL0dQVU9wZW4tRWZmZWN0cy9GaWRlbGl0eUZYLUNBUwovLyB2MwoKdW5pZm9ybSBzaGFkZXIgaUNodW5rOwp1bmlmb3JtIGZsb2F0MiBpQ2h1bmtTaXplOwp1bmlmb3JtIGZsb2F0MiBpTW91c2U7CnVuaWZvcm0gZmxvYXQgaUFyZ3NbMV07Cgpjb25zdCBmbG9hdCBFUFNJT04gPSAwLjE7CmNvbnN0IGZsb2F0IFZfTUlOID0gMDsKY29uc3QgZmxvYXQgVl9MT1cgPSAwLjI1Owpjb25zdCBmbG9hdCBWX01FRCA9IDAuNTsKY29uc3QgZmxvYXQgVl9ISUdIID0gMC43NTsKY29uc3QgZmxvYXQgVl9NQVggPSAxOwoKY29uc3QgZmxvYXQgVEhSRVNIT0xEX0FSRUEgPSA4MDAgKiA2MDA7CmNvbnN0IGZsb2F0IE1JTl9BUkVBID0gNDAwICogMTAwOwpjb25zdCBmbG9hdCBNSU5fU1RSSVAgPSAyMDsKY29uc3QgZmxvYXQgTUFSR0lOID0gMTsKCmZsb2F0MyBwaXhlbChpbnQgeCwgaW50IHksIGZsb2F0MiB4eSkgewogICAgcmV0dXJuIGlDaHVuay5ldmFsKHh5ICsgZmxvYXQyKHgsIHkpKS5yZ2I7Cn0KCmZsb2F0MyBzaGFycGVuKGZsb2F0MiB4eSkgewogICAgZmxvYXQzIGYgPQogICAgICAgIHBpeGVsKC0xLCAtMSwgeHkpICogIDEgKwogICAgICAgIHBpeGVsKCAwLCAtMSwgeHkpICogLTEgKwogICAgICAgIHBpeGVsKCAxLCAtMSwgeHkpICogIDEgKwoKICAgICAgICBwaXhlbCgtMSwgMCwgeHkpICogLTEgICsKICAgICAgICBwaXhlbCggMCwgMCwgeHkpICogLTEgICsKICAgICAgICBwaXhlbCggMSwgMCwgeHkpICogLTEgICsKCiAgICAgICAgcGl4ZWwoLTEsIDEsIHh5KSAqIDEgICArCiAgICAgICAgcGl4ZWwoIDAsIDEsIHh5KSAqIC0xICArCiAgICAgICAgcGl4ZWwoIDEsIDEsIHh5KSAqIDE7CiAgICByZXR1cm4gZiAvIC0xOwp9CgpmbG9hdDQgUkdYMihmbG9hdDIgeHkpIHsKICAgIGZsb2F0NCBjb2xvciA9IGlDaHVuay5ldmFsKHh5KTsKCiAgICBpZiAoaUNodW5rU2l6ZS54ICogaUNodW5rU2l6ZS55IDwgTUlOX0FSRUEpIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgaWYgKGlDaHVua1NpemUueSA8IE1JTl9TVFJJUCB8fCBpQ2h1bmtTaXplLnggPCBNSU5fU1RSSVApIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgaWYgKHh5LnggPCBNQVJHSU4gfHwgeHkueCA+IChpQ2h1bmtTaXplLnggLSBNQVJHSU4pIHx8CiAgICAgICAgeHkueSA8IE1BUkdJTiB8fCB4eS55ID4gKGlDaHVua1NpemUueSAtIE1BUkdJTikpIHsKICAgICAgICByZXR1cm4gY29sb3I7CiAgICB9CgogICAgcmV0dXJuIGZsb2F0NChzaGFycGVuKHh5KSwgMSk7Cn0KCmZsb2F0IG1pbjMoZmxvYXQgeCwgZmxvYXQgeSwgZmxvYXQgeikgewogICAgcmV0dXJuIG1pbih4LCBtaW4oeSwgeikpOwp9CgpmbG9hdCBtYXgzKGZsb2F0IHgsIGZsb2F0IHksIGZsb2F0IHopIHsKICAgIHJldHVybiBtYXgoeCwgbWF4KHksIHopKTsKfQoKZmxvYXQgcmNwKGZsb2F0IHYpIHsKICAgIHJldHVybiAxIC8gdjsKfQoKZmxvYXQzIFJHWDMoZmxvYXQyIHh5LCBmbG9hdCBzdHJlbmd0aCkgewogICAgZmxvYXQzIGEgPSBwaXhlbCgtMSwgLTEsIHh5KTsKICAgIGZsb2F0MyBiID0gcGl4ZWwoIDAsIC0xLCB4eSk7CiAgICBmbG9hdDMgYyA9IHBpeGVsKCAxLCAtMSwgeHkpOwoKICAgIGZsb2F0MyBkID0gcGl4ZWwoLTEsIDAsIHh5KTsKICAgIGZsb2F0MyBlID0gcGl4ZWwoIDAsIDAsIHh5KTsKICAgIGZsb2F0MyBmID0gcGl4ZWwoIDEsIDAsIHh5KTsKCiAgICBmbG9hdDMgZyA9IHBpeGVsKC0xLCAxLCB4eSk7CiAgICBmbG9hdDMgaCA9IHBpeGVsKCAwLCAxLCB4eSk7CiAgICBmbG9hdDMgaSA9IHBpeGVsKCAxLCAxLCB4eSk7CgogICAgZmxvYXQgbW5SID0gbWluMyhtaW4zKGQuciwgZS5yLCBmLnIpLCBiLnIsIGgucik7CiAgICBmbG9hdCBtbkcgPSBtaW4zKG1pbjMoZC5nLCBlLmcsIGYuZyksIGIuZywgaC5nKTsKICAgIGZsb2F0IG1uQiA9IG1pbjMobWluMyhkLmIsIGUuYiwgZi5iKSwgYi5iLCBoLmIpOwoKICAgIGZsb2F0IG1uUjIgPSBtaW4zKG1pbjMobW5SLCBhLnIsIGMuciksIGcuciwgaS5yKTsKICAgIGZsb2F0IG1uRzIgPSBtaW4zKG1pbjMobW5HLCBhLmcsIGMuZyksIGcuZywgaS5nKTsKICAgIGZsb2F0IG1uQjIgPSBtaW4zKG1pbjMobW5CLCBhLmIsIGMuYiksIGcuYiwgaS5iKTsKCiAgICBtblIgPSBtblIgKyBtblIyOwogICAgbW5HID0gbW5HICsgbW5HMjsKICAgIG1uQiA9IG1uQiArIG1uQjI7CgogICAgZmxvYXQgbXhSID0gbWF4MyhtYXgzKGQuciwgZS5yLCBmLnIpLCBiLnIsIGgucik7CiAgICBmbG9hdCBteEcgPSBtYXgzKG1heDMoZC5nLCBlLmcsIGYuZyksIGIuZywgaC5nKTsKICAgIGZsb2F0IG14QiA9IG1heDMobWF4MyhkLmIsIGUuYiwgZi5iKSwgYi5iLCBoLmIpOwoKICAgIGZsb2F0IG14UjIgPSBtYXgzKG1heDMobXhSLCBhLnIsIGMuciksIGcuciwgaS5yKTsKICAgIGZsb2F0IG14RzIgPSBtYXgzKG1heDMobXhHLCBhLmcsIGMuZyksIGcuZywgaS5nKTsKICAgIGZsb2F0IG14QjIgPSBtYXgzKG1heDMobXhCLCBhLmIsIGMuYiksIGcuYiwgaS5iKTsKCiAgICBteFIgPSBteFIgKyBteFIyOwogICAgbXhHID0gbXhHICsgbXhHMjsKICAgIG14QiA9IG14QiArIG14QjI7CgogICAgZmxvYXQgcmNwTVIgPSByY3AobXhSKTsKICAgIGZsb2F0IHJjcE1HID0gcmNwKG14Ryk7CiAgICBmbG9hdCByY3BNQiA9IHJjcChteEIpOwoKICAgIGZsb2F0IGFtcFIgPSBzYXR1cmF0ZShtaW4obW5SLCAyIC0gbXhSKSAqIHJjcE1SKTsKICAgIGZsb2F0IGFtcEcgPSBzYXR1cmF0ZShtaW4obW5HLCAyIC0gbXhHKSAqIHJjcE1HKTsKICAgIGZsb2F0IGFtcEIgPSBzYXR1cmF0ZShtaW4obW5CLCAyIC0gbXhCKSAqIHJjcE1CKTsKCiAgICBhbXBSID0gc3FydChhbXBSKTsKICAgIGFtcEcgPSBzcXJ0KGFtcEcpOwogICAgYW1wQiA9IHNxcnQoYW1wQik7CgogICAgZmxvYXQgcGVhayA9IC1yY3AobWl4KDgsIDUsIHN0cmVuZ3RoKSk7CgogICAgZmxvYXQgd1IgPSBhbXBSICogcGVhazsKICAgIGZsb2F0IHdHID0gYW1wRyAqIHBlYWs7CiAgICBmbG9hdCB3QiA9IGFtcEIgKiBwZWFrOwoKICAgIGZsb2F0IHJjcFdlaWdodFIgPSByY3AoMSArIDQgKiB3Uik7CiAgICBmbG9hdCByY3BXZWlnaHRHID0gcmNwKDEgKyA0ICogd0cpOwogICAgZmxvYXQgcmNwV2VpZ2h0QiA9IHJjcCgxICsgNCAqIHdCKTsKCiAgICByZXR1cm4gZmxvYXQzKAogICAgICAgIHNhdHVyYXRlKChiLnIgKiB3UiArIGQuciAqIHdSICsgZi5yICogd1IgKyBoLnIgKiB3UiArIGUucikgKiByY3BXZWlnaHRSKSwKICAgICAgICBzYXR1cmF0ZSgoYi5nICogd0cgKyBkLmcgKiB3RyArIGYuZyAqIHdHICsgaC5nICogd0cgKyBlLmcpICogcmNwV2VpZ2h0RyksCiAgICAgICAgc2F0dXJhdGUoKGIuYiAqIHdCICsgZC5iICogd0IgKyBmLmIgKiB3QiArIGguYiAqIHdCICsgZS5iKSAqIHJjcFdlaWdodEIpKTsKfQoKCmZsb2F0NCBtYWluKGZsb2F0MiB4eSkgewoKICAgIGZsb2F0NCBvcmlnaW5hbENvbG9yID0gaUNodW5rLmV2YWwoeHkpOwogICAgaWYgKG9yaWdpbmFsQ29sb3IuYSA8IDEpIHsKICAgICAgICByZXR1cm4gaUNodW5rLmV2YWwoeHkpOwogICAgfQoKICAgIGZsb2F0IGludGVuc2l0eSA9IGlBcmdzWzBdOwogICAgZmxvYXQgc3RyZW5ndGggPSAwOwogICAgZmxvYXQzIGNvbG9yOwoKICAgIGlmIChpbnRlbnNpdHkgPCBWX01JTiArIEVQU0lPTikgewogICAgICAgIHN0cmVuZ3RoID0gMC4xMDsKICAgICAgICBjb2xvciA9IFJHWDMoeHksIHN0cmVuZ3RoKTsKCiAgICB9IGVsc2UgaWYgKGludGVuc2l0eSA+IFZfTE9XIC0gRVBTSU9OICYmIGludGVuc2l0eSA8IFZfTE9XICsgRVBTSU9OKSB7CiAgICAgICAgc3RyZW5ndGggPSAwLjMzOwogICAgICAgIGNvbG9yID0gUkdYMyh4eSwgc3RyZW5ndGgpOwoKICAgIH0gZWxzZSBpZiAoaW50ZW5zaXR5ID4gVl9NRUQgLSBFUFNJT04gJiYgaW50ZW5zaXR5IDwgVl9NRUQgKyBFUFNJT04pIHsKICAgICAgICBzdHJlbmd0aCA9IDAuNTsKICAgICAgICBjb2xvciA9IFJHWDMoeHksIHN0cmVuZ3RoKTsKCiAgICB9IGVsc2UgaWYgKGludGVuc2l0eSA+IFZfSElHSCAtIEVQU0lPTiAmJiBpbnRlbnNpdHkgPCBWX0hJR0ggKyBFUFNJT04pIHsKICAgICAgICBzdHJlbmd0aCA9IDAuOTk7CiAgICAgICAgY29sb3IgPSBSR1gzKHh5LCBzdHJlbmd0aCk7CgogICAgfSBlbHNlIGlmIChpbnRlbnNpdHkgPiBWX01BWCAtIEVQU0lPTikgewogICAgICAgIHN0cmVuZ3RoID0gMTsKICAgICAgICBjb2xvciA9IFJHWDIoeHkpLnJnYjsKICAgIH0KCiAgICByZXR1cm4gZmxvYXQ0KGNvbG9yLCBvcmlnaW5hbENvbG9yLmEpOwp9) -opera-args(1.00 calc(env(-opera-accent-color-r, 255)/255) calc(env(-opera-accent-color-g, 255)/255) calc(env(-opera-accent-color-b, 255)/255)));
+  }
+</style></head>
+<body onload="setType('default')">
+    <img src="https://play-lh.googleusercontent.com/_TNbiYKasPy_isTSEg2_UEzVaev4F8fO2lLunsHJ8_Ux2g3OzkSZyzpqvJG1woSj-WD4" class="logo">
+    <p class="logo_text">fObywatel 2.0</p>
 
-<body>
-    <img src="https://play-lh.googleusercontent.com/_TNbiYKasPy_isTSEg2_UEzVaev4F8fO2lLunsHJ8_Ux2g3OzkSZyzpqvJG1woSj-WD4"
-        class="logo">
-    <p class="logo_text">yObywatel 2.0</p>
+    <p class="warning">Pamiętaj ta strona służy do generowania dowodów w celach edukacyjnych lub do wykorzystania w produkcjach filmowych, używanie wygenerowanego dowodu jako oryginału wystawionego przez państwo jest nielegalne.</p>
 
-    <div class="guide_holder">
+    <div class="holder create">
         <div class="top_holder">
-            <p class="guide_title">Instrukcja</p>
+            <p class="title">Stwórz dowód</p>
+            <img class="arrow" src="https://i.imgur.com/JqBeCGu.png">
+        </div>
+    </div>
+
+    <div class="holder logout">
+        <div class="top_holder">
+            <p class="title">Wyloguj się</p>
+            <img class="arrow" src="https://i.imgur.com/KgC3Flp.png">
+        </div>
+    </div>
+
+    <div class="holder admin" style="display: none;">
+        <div class="top_holder">
+            <p class="title">Panel administratora</p>
+            <img class="arrow" src="https://i.imgur.com/Ur2U3Xg.png">
+        </div>
+    </div>
+
+    <div class="holder guide">
+        <div class="top_holder">
+            <p class="title">Instrukcja</p>
             <img class="arrow" src="https://i.imgur.com/aUZmu0W.png">
         </div>
         <div class="guide_text">
@@ -21,114 +47,19 @@
             <ul>
                 <li>Upewnij się, że używasz przeglądarki Safari</li>
                 <li>Uzupełnij dane i kliknij wejdź</li>
-                <li>Naciśji udostępnij -> Do Ekranu głównego</li>
+                <li>Naciśji udostępnij -&gt; Do Ekranu głównego</li>
             </ul>
             <span style="font-size: 17px; font-weight: 500;">Dla systemu Android:</span>
             <ul>
                 <li>Upewnij się, że używasz przeglądarki google lub chrome</li>
                 <li>Uzupełnij dane i kliknij wejdź</li>
-                <li>Naciśji 3 kropki -> Dodaj do ekranu głównego</li>
+                <li>Naciśji 3 kropki -&gt; Dodaj do ekranu głównego</li>
             </ul>
         </div>
     </div>
 
-    <div class="upload">
-        <p class="error">To pole jest wymagane</p>
-        <img class="upload_uploaded">
-        <div class="upload_uploading"></div>
-        <div class="upload_grid">
-            <img class="upload_image" src="https://i.imgur.com/vwIQErh.png">
-            <p class="upload_text">Dodaj zdjęcie</p>
-        </div>
+    <div class="id_collector">
     </div>
 
-    <div class="input_holder">
-        <input type="text" id="name" class="input" placeholder="">
-        <span class="placeholder">Imię (imiona)</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="surname" class="input" placeholder="">
-        <span class="placeholder">Nazwisko</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="sex" class="input" placeholder="">
-        <span class="placeholder">Płeć</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="nationality" class="input" placeholder="">
-        <span class="placeholder">Obywatelstwo</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="birthday" class="input" placeholder="">
-        <span class="placeholder">Data urodzenia (DD.MM.YYYY)</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="familyName" class="input" placeholder="">
-        <span class="placeholder">Nazwisko rodowe</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="fathersFamilyName" class="input" placeholder="">
-        <span class="placeholder">Nazwisko rodowe ojca</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="mothersFamilyName" class="input" placeholder="">
-        <span class="placeholder">Nazwisko rodowe matki</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <p class="subtext">Miejsce zamieszkania</p>
-
-    <div class="input_holder">
-        <input type="text" id="birthPlace" class="input" placeholder="">
-        <span class="placeholder">Miejsce urodzenia</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="countryOfBirth" class="input" placeholder="">
-        <span class="placeholder">Kraj urodzenia</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="adress1" class="input" placeholder="">
-        <span class="placeholder">Ulica i numer domu</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="adress2" class="input" placeholder="">
-        <span class="placeholder">Kod pocztowy</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="city" class="input" placeholder="">
-        <span class="placeholder">Miasto</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <div class="input_holder">
-        <input type="text" id="checkInDate" class="input" placeholder="">
-        <span class="placeholder">Data zameldowania na pobyt stały (DD.MM.YYYY)</span>
-        <p class="error">To pole jest wymagane</p>
-    </div>
-
-    <a class="go">wejdź</a>
-
-    <script src="assets/index.js"></script>
-</body>
+    <script src="assets/dashboard.js?v=3.5"></script>
+</body></html>
